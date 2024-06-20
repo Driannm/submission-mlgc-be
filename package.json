@@ -1,0 +1,28 @@
+{
+  "name": "submission-mlgc-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/server/server.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon ./src/server/server.js",
+    "start": "node ./src/server/server.js"
+  },
+  "keywords": [],
+  "author": "Driann",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.8.0",
+    "@hapi/hapi": "^21.3.10",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.1.1",
+    "joi": "^17.13.2",
+    "nanoid": "^5.0.7",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
